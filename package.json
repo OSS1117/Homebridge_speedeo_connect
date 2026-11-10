@@ -39,5 +39,13 @@
     "displayName": "Speedeo Connect",
     "plugin-type": "platform",
     "singular": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OSS1117/homebridge-speedeo-connect.git"
+  },
+  "homepage": "https://github.com/OSS1117/homebridge-speedeo-connect#readme",
+  "bugs": {
+    "url": "https://github.com/OSS1117/homebridge-speedeo-connect/issues"
   }
 }
