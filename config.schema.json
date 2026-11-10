@@ -1,0 +1,18 @@
+{
+  "pluginAlias": "SpeedeoConnect",
+  "pluginType": "platform",
+  "singular": true,
+  "schema": {
+    "type": "object",
+    "required": ["email", "password"],
+    "properties": {
+      "name": {"title": "Nom", "type": "string", "default": "Piscine"},
+      "email": {"title": "Compte Pentair Pool", "type": "string"},
+      "password": {"title": "Mot de passe Pentair Pool", "type": "string", "format": "password"},
+      "deviceId": {"title": "Identifiant SPD1 (facultatif si un seul Speedeo)", "type": "string"},
+      "pollIntervalSeconds": {"title": "Intervalle de lecture (secondes)", "type": "integer", "default": 30, "minimum": 15, "maximum": 300},
+      "confirmationSeconds": {"title": "Délai de confirmation de l’éclairage (secondes)", "type": "integer", "default": 600, "minimum": 60, "maximum": 1800},
+      "staleSeconds": {"title": "Âge maximal des données (secondes)", "type": "integer", "default": 900, "minimum": 120, "maximum": 86400}
+    }
+  }
+}

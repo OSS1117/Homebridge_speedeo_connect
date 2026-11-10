@@ -1,0 +1,43 @@
+{
+  "name": "homebridge-speedeo-connect",
+  "version": "0.1.0-alpha.1",
+  "description": "Pentair Speedeo Connect: pool light and water temperature for Homebridge",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "homebridge-plugin",
+    "pentair",
+    "speedeo"
+  ],
+  "engines": {
+    "node": ">=22",
+    "homebridge": ">=1.8.0"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "config.schema.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check index.js && node --check lib/client.js && node --check lib/state.js"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "^6.3.16",
+    "@aws-sdk/client-cognito-identity": "^3.0.0",
+    "@smithy/signature-v4": "^5.0.0",
+    "@smithy/protocol-http": "^5.0.0",
+    "@smithy/node-http-handler": "^4.0.0",
+    "@aws-crypto/sha256-js": "^5.0.0"
+  },
+  "devDependencies": {
+    "homebridge": "^1.11.0"
+  },
+  "homebridge": {
+    "displayName": "Speedeo Connect",
+    "plugin-type": "platform",
+    "singular": true
+  }
+}
