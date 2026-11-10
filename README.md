@@ -31,7 +31,7 @@ habituelle  :
 
 ```sh
 cd /homebridge
-npm install --save https://github.com/OSS1117/homebridge-speedeo-connect/releases/download/v0.1.0-alpha.1/homebridge-speedeo-connect-0.1.0-alpha.1.tgz
+npm install --save https://github.com/OSS1117/Homebridge_speedeo_connect/releases/download/v0.1.0-alpha.1/homebridge-speedeo-connect-0.1.0-alpha.1.tgz
 ```
 
 Le tag est figé : installer une nouvelle alpha nécessitera de changer la version

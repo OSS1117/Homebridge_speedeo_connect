@@ -42,10 +42,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/OSS1117/homebridge-speedeo-connect.git"
+    "url": "https://github.com/OSS1117/Homebridge_speedeo_connect.git"
   },
-  "homepage": "https://github.com/OSS1117/homebridge-speedeo-connect#readme",
+  "homepage": "https://github.com/OSS1117/Homebridge_speedeo_connect#readme",
   "bugs": {
-    "url": "https://github.com/OSS1117/homebridge-speedeo-connect/issues"
+    "url": "https://github.com/OSS1117/Homebridge_speedeo_connect/issues"
   }
 }
